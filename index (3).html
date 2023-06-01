@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+<head>
+	<meta charset="utf-8">
+		<link rel="SHORTCUT ICON" href="images/favicon2.png" type="image/x-icon">
+		<title>Салон красоты</title>
+	<meta charset="utf-8">
+
+		<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 15000);
+    });
+});
+</script>
+
+
+</head>
+
+<body>
+
+	<nav>
+	    <ul class="topmenu">
+		    <li><a href="index (3).html">Главная</a></li>
+		    <li><a href="about.html">О нас</a></li>
+		    <li><a href="works.html">Наши работы</a>
+			    <ul class="submenu">
+				    <li><a href="works.res.html">Ресницы</a></li>
+			        <li><a href="works .bro.html">Брови</a></li>
+                    <li><a href="works.mac.html">Макияж</a></li>
+		        </ul>
+		    </li>	
+		    <li><a href="record.html">Запись</a></li>
+			<li><a href="map.html">Карта сайта</a></li>
+	    </ul>
+    </nav>
+<div class="main">
+<section id="header" data-speed="10" data-type="background">
+		 <div class="Big_text">
+			<h1>Выразительный взгляд!
+               Именно об этом мечтает каждая женщина! Ее мечты исполнит салон красоты Adel</h1>
+		 </div>
+</section>
+
+	
+	
+<section id="about4" data-speed="4" data-type="back"> 
+<div class="footer">
+	<div class="text1">
+	<a href="https://www.instagram.com/malina_new_studio/?igshid=q7t7c3194a8p" class="butt1">Instagram</a><br>
+	VK: malina_lash <br> <br>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4498.52163127218!2d37.888178024905365!3d55.684453144320514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e26a058bf1e1b12!2z0KLRhiAi0KTQu9Cw0LzQuNC90LPQviI!5e0!3m2!1sru!2sru!4v1573048362626!5m2!1sru!2sru" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe> <br>
+	Телефон: 8-926-222-49-04
+	</div>
+</div>
+</section>
+
+</div>
+</body>
+</html>
